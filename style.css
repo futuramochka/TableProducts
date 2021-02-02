@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid green;
+    padding: 5px;
+}
+
+td:nth-child(6){
+    display: flex;
+    justify-content: center;
+}
+
+td a{
+    padding: 0 50px;
+    cursor: pointer;
+    border: 1px solid lightblue;
+}
+
+td:last-child{
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    border: 1px dashed black;
+}
